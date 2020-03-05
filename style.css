@@ -29,6 +29,7 @@ body {
   display: block;
   color: white;
   cursor: pointer;
+  transition: .7s;
 }
 
 
@@ -46,7 +47,8 @@ body {
   border-style: double;
   border-radius: 50%;
   z-index: -1;
-  transform: scale(3);  
+  transform: scale(0);  
+  transition: 1s;
 }
 
 
