@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 *{ 
   margin: 0;
   padding: 0;
@@ -6,6 +8,17 @@
 body {
   background: #1b1464;
   overflow: hidden;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 40px;
+  margin-top: 200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  text-align: center;
 }
 
 .container {
@@ -92,4 +105,13 @@ a:nth-child(5) {
 a:nth-child(6) {
   top: 23px;
   left: 12px;
+}
+/* a:nth-child(6):hover:after {
+  content: 'bell';
+} */
+
+.message {
+  position: relative;
+  margin-top: 600px;
+  font-family: 'Montserrat';
 }

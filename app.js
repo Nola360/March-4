@@ -14,3 +14,74 @@ function expand() {
     abc = 0;
   }
 }
+
+
+const mic = document.querySelector('.fas.fa-microphone');
+const user = document.querySelector('.fas.fa-user');
+const mail = document.querySelector('.fas.fa-envelope');
+const video = document.querySelector('.fas.fa-video');
+const camera = document.querySelector('.fas.fa-camera');
+const bell = document.querySelector('.fas.fa-bell');
+
+mic.addEventListener('mouseover', function () {
+  let message = document.querySelector('.message');
+  // console.log('microphone');
+  message.textContent = 'Speaker';
+})
+
+user.addEventListener('mouseover', function () {
+  let message = document.querySelector('.message');
+  // console.log('microphone');
+  message.textContent = 'User';
+})
+
+mail.addEventListener('mouseover', function () {
+  let message = document.querySelector('.message');
+  // console.log('microphone');
+  message.textContent = 'E-Mail';
+})
+
+
+video.addEventListener('mouseover', function () {
+  let message = document.querySelector('.message');
+  // console.log('microphone');
+  message.textContent = 'Video';
+})
+
+camera.addEventListener('mouseover', function () {
+  let message = document.querySelector('.message');
+  // console.log('microphone');
+  message.textContent = 'Camera';
+})
+
+bell.addEventListener('mouseover', function () {
+  let message = document.querySelector('.message');
+  // console.log('microphone');
+  message.textContent = 'Bell';
+})
+
+
+
+
+
+
+const description = document.querySelector('.fas.fa-microphone');
+
+
+description.addEventListener('click', function (e) {
+
+  if (e.target === 'fas fa-microphone') {
+    console.log('test');
+  }
+  // for (var i = 0; i < description.length; i++)
+  // console.log(description);
+  // console.log('test');
+})
+
+// description.forEach(function (icon) {
+//   icon.addEventListener('click', function () {
+//     console.log('test');
+//   })
+// })
+
+// console.log(description[i]);
